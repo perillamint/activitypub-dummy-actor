@@ -1,0 +1,81 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1",
+    {
+      "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+      "toot": "http://joinmastodon.org/ns#",
+      "featured": {
+        "@id": "toot:featured",
+        "@type": "@id"
+      },
+      "featuredTags": {
+        "@id": "toot:featuredTags",
+        "@type": "@id"
+      },
+      "alsoKnownAs": {
+        "@id": "as:alsoKnownAs",
+        "@type": "@id"
+      },
+      "movedTo": {
+        "@id": "as:movedTo",
+        "@type": "@id"
+      },
+      "schema": "http://schema.org#",
+      "PropertyValue": "schema:PropertyValue",
+      "value": "schema:value",
+      "discoverable": "toot:discoverable",
+      "Device": "toot:Device",
+      "Ed25519Signature": "toot:Ed25519Signature",
+      "Ed25519Key": "toot:Ed25519Key",
+      "Curve25519Key": "toot:Curve25519Key",
+      "EncryptedMessage": "toot:EncryptedMessage",
+      "publicKeyBase64": "toot:publicKeyBase64",
+      "deviceId": "toot:deviceId",
+      "claim": {
+        "@type": "@id",
+        "@id": "toot:claim"
+      },
+      "fingerprintKey": {
+        "@type": "@id",
+        "@id": "toot:fingerprintKey"
+      },
+      "identityKey": {
+        "@type": "@id",
+        "@id": "toot:identityKey"
+      },
+      "devices": {
+        "@type": "@id",
+        "@id": "toot:devices"
+      },
+      "messageFranking": "toot:messageFranking",
+      "messageType": "toot:messageType",
+      "cipherText": "toot:cipherText",
+      "suspended": "toot:suspended",
+      "focalPoint": {
+        "@container": "@list",
+        "@id": "toot:focalPoint"
+      }
+    }
+  ],
+  "id": "https://example.com/users/alice",
+  "type": "Person",
+  "inbox": "https://example.com/users/alice/inbox",
+  "preferredUsername": "alice",
+  "name": "",
+  "summary": "",
+  "url": "https://example.com/users/alice",
+  "manuallyApprovesFollowers": true,
+  "discoverable": true,
+  "published": "2022-11-08T00:00:00Z",
+  "publicKey": {
+    "id": "https://example.com/users/alice#main-key",
+    "owner": "https://example.com/users/alice",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANA1rHuc4upGNi4fgFQI8AgjaaD3hkwE\nzSIGZVRu4fDw9cffjCY34PygBYmxF8aQJ0Om5Gt7xYCCp1iBnZtplN0CAwEAAQ==\n-----END PUBLIC KEY-----"
+  },
+  "tag": [],
+  "attachment": [],
+  "endpoints": {
+    "sharedInbox": "https://example.com/inbox"
+  }
+}
